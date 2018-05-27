@@ -11,5 +11,3 @@ class Year
     end
 	end
 end
-
-
