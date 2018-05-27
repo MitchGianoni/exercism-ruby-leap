@@ -23,7 +23,7 @@ class YearTest < Minitest::Test
   end
 
   def test_year_divisible_by_100_not_divisible_by_400_common_year
-    skip
+    # skip
     refute Year.leap?(2100), "Expected 'false', 2100 is not a leap year."
   end
 
