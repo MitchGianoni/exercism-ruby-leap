@@ -18,7 +18,7 @@ class YearTest < Minitest::Test
   end
 
   def test_year_divisible_by_4_not_divisible_by_100_leap_year
-    skip
+    # skip
     assert Year.leap?(2020), "Expected 'true', 2020 is a leap year."
   end
 
